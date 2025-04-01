@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b922e3ec58.js" crossorigin="anonymous"></script>
+  </head>
+ 
+
+  <body>
+    <!-- ------------header-------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="image/Green code.png" class="image-logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+          <p>Frontend Dev & CyberSecurity Enthusiast</p>
+          <h1>Nice to meet you,<br>My name's<br><span>DepoDev</span>.
+          </h1>
+        </div> 
+      </div>
+    </div>
+    <!-- ------------about-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            
+            <img src="/image/skills.jpg">
+
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Condimentum maximus maximus a neque blandit suspendisse. Ex ante ipsum placerat egestas bibendum. Vestibulum non urna eu auctor elementum ut viverra. Nunc nullam hendrerit posuere porta facilisis rutrum lectus scelerisque commodo. Maximus commodo ullamcorper rhoncus gravida posuere ornare facilisis.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+                <!-- ------------skills-------------------- -->
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Frontend Developer</span><br>Designing Web/App interfaces</li>
+                <li><span>CyberSecurity Analyst</span><br>Security Architecture</li>
+              </ul>
+            </div>
+                <!-- ------------Experience-------------------- -->
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2025 - Current</span><br>freeCodeCamp Javascript Certification</li>
+                <li><span>2024</span><br>freeCodeCamp Responsive Web design Certification</li>
+              </ul>
+            </div>
+                <!-- ------------Education-------------------- -->
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>2025 - Current</span><br>Google Cybersecurity Certificate</li>
+                    <li><span>2024</span><br>freeCodeCamp Responsive Web design Certification</li>
+                    <li><span>2024</span><br>Harvard CS50: Introduction to Computer Science Certificate</li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------services--------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Condimentum maximus maximus a neque blandit suspendisse. Ex ante ipsum placerat egestas bibendum. </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-shield"></i>
+          <h2>CyberSecurity Architecture</h2>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Condimentum maximus maximus a neque blandit suspendisse. Ex ante ipsum placerat egestas bibendum. </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-music"></i>
+          <h2>Music Production</h2>
+          <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Condimentum maximus maximus a neque blandit suspendisse. Ex ante ipsum placerat egestas bibendum. </p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------portfolio------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1741930942~exp=1741934542~hmac=bb7b0f10ffe43f08fbb5728596efb07b7362b38f37d13bdef2dcda799213f8f7&w=740" alt="cybersecurity">
+          <div class="layer">
+            <h3>Web Design Projects</h3>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://img.freepik.com/free-vector/cyber-security-concept_23-2148543851.jpg?t=st=1742083140~exp=1742086740~hmac=f16b0261ce9b28bd3c0bd4b64c662abc39acd71ed73bcb5f2cb7e0c08074235e&w=740" alt="cybersecurity">
+          <div class="layer">
+            <h3>CyberSecurity Projects</h3>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://img.freepik.com/free-vector/project-studio-isometric-composition_1284-24559.jpg?t=st=1742083051~exp=1742086651~hmac=8f4bf5d64c77a5dee894ef2eaf82b7e9bb87ee435bfa974e56db151541480558&w=740" alt="cybersecurity">
+          <div class="layer">
+            <h3>Music Projects</h3>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- -------contact-------------- -->
+   <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+          <p><i class="fa-solid fa-phone"></i>55-5555-5555</p>
+          <div class="social-media-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div>
+            <a href="#" download class="btn btn2">Download CV</a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © DepoDev 2025</p>
+    </div>
+   </div>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+      for(let tablink of tablinks){
+        tablink.classList.remove('active-link');
+      }
+      for(let tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab');
+    }
+  </script>
+
+  <script>
+    
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+      sidemeu.style.right = "-200px";
+    }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyi2sREH_ikQK1mLfXUbeJSEXMsr1XYonYKVr2xzVhq6XZhs34lhv_iu-oH6KcaYsGp3g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent sucessfully."
+          setTimeout(function(){
+            msg.innerHTML =""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  </body>
+</html>
