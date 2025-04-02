@@ -34,7 +34,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     position: fixed;
     top: 0; /* Position it at the top of the viewport */
